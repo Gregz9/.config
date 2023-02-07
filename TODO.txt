@@ -7,4 +7,5 @@ List of things to configure in for Arch:
 	V. Vim plugins
 	VI. Configure the i3 bar
 	VII. Autocompletion + autocomplete brackets vim
-	VIII. Vim-mode binding (enter & exit mode) 
+	VIII. Vim-mode binding (enter & exit mode)
+	IX. Install valgrind and gdb
