@@ -7,7 +7,7 @@ call plug#end()
 lua require('Comment').setup()
 
 
-# indent
+" indent
 set smartindent 
 set tabstop=4
 set shiftwidth=4 
