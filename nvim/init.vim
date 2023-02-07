@@ -11,3 +11,6 @@ lua require('Comment').setup()
 set smartindent 
 set tabstop=4
 set shiftwidth=4 
+
+" Keymap 
+:nmap aa A
