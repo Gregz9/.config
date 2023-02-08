@@ -14,3 +14,7 @@ set shiftwidth=4
 
 " Keymap 
 :nmap aa A
+
+" 
+nnoremap <A-j> :m .+1<CR>
+nnoremap <A-k> :m .-2<CR>
