@@ -13,8 +13,12 @@ set tabstop=4
 set shiftwidth=4 
 
 " Keymap 
-:nmap aa A
+:nnoremap aa A
 
 " 
 nnoremap <A-j> :m .+1<CR>
 nnoremap <A-k> :m .-2<CR>
+
+" Visuals/GUI 
+:set relativenumber
+:set nu rnu
