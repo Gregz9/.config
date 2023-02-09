@@ -15,6 +15,16 @@ set shiftwidth=4
 " Keymap 
 :nnoremap aa A
 
+" The easy way 
+nnoremap <Up> <Nop>
+nnoremap <Right> <Nop>
+nnoremap <Left> <Nop>
+nnoremap <Down> <Nop>
+inoremap <Up> <Nop>
+inoremap <Down> <Nop>
+inoremap <Right> <Nop>
+inoremap <Left> <Nop>
+
 " 
 nnoremap <A-j> :m .+1<CR>
 nnoremap <A-k> :m .-2<CR>
