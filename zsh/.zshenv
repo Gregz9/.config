@@ -1,3 +1,6 @@
+
+
+
 export PATH="/home/gregz/.local/bin:$PATH
 export EDITOR="nvim"
 
