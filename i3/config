@@ -15,6 +15,7 @@ set $down j
 set $up k
 set $right l
 set $term alacritty 
+set $menu rofi --show run
 
 # Output conf
 exec --no-startup-id feh --bg-fill $HOME/Downloads/cyber.jpg
@@ -63,7 +64,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Shift+f exec firefox
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id $menu -show drun
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
