@@ -14,6 +14,6 @@ export XDG_BIN_HOME="$HOME/.local/bin"
 export XDG_DATA_DIRS="/usr/local/share:/usr/share"
 export XDG_CONFIG_DIRS="/etc/xdg"
 export PYTHONPATH="${PYTHONPATH}:$HOME/Files/qcml/"
-
+export PYHTONPATH="${PYTHONPATH}:$HOME/Files/CNN/"
 
 export GPG_TTY=$(tty)
