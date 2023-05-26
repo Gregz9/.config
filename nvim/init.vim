@@ -60,6 +60,7 @@ endif
 let mapleader=" "
 nnoremap <leader>b :!black %<CR>
 nnoremap <leader>z :!zathura %<.pdf & <CR><CR>
+nnoremap <leader>p 	:w<CR>:exec '!pdflatex %'<CR>
 
 
 " Use tab for trigger completion with characters ahead and navigate.
