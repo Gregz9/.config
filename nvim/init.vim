@@ -2,6 +2,7 @@
 call plug#begin(stdpath('data') . '/plugged')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'numToStr/Comment.nvim'
+	Plug 'sonph/onehalf', { 'rtp' : 'vim' }
 	Plug 'itchyny/vim-gitbranch'
 call plug#end()
 lua require('Comment').setup()
@@ -101,6 +102,9 @@ augroup mygroup
   " Update signature help on jump placeholder.
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 augroup end
+
+" Visuals 
+colorscheme onehalflight
 
 autocmd FileType python command! Main execute "normal! idef main():<CR><CR><BS>if __name__ == '__main__':<CR>main()<ESC>gg$"
 autocmd FileType c command! Main execute "normal! i#include <stdlib.h><CR><CR>void main() {<CR>}<ESC>k$"
