@@ -4,6 +4,7 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'numToStr/Comment.nvim'
 	Plug 'sonph/onehalf', { 'rtp' : 'vim' }
 	Plug 'itchyny/vim-gitbranch'
+	Plug 'pappasam/coc-jedi', {'do': 'yarn install --frozen-lockfile && yarn build', 'branch': 'main'}
 call plug#end()
 lua require('Comment').setup()
 

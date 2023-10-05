@@ -33,6 +33,9 @@ export PROMPT='[%?] %F{027}%~% %f ${vcs_info_msg_0_} %f${NEWLINE}${PROMPT2}'
 export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 export PAGER='less'
 
+# Tensorflow warning variable
+export TF_CPP_MIN_LOG_LEVEL=2
+
 # history
 export HISTFILE="$XDG_CACHE_HOME/zsh/history"
 export HISTSIZE=2000
