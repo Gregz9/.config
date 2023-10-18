@@ -4,6 +4,7 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'numToStr/Comment.nvim'
 	Plug 'sonph/onehalf', { 'rtp' : 'vim' }
 	Plug 'itchyny/vim-gitbranch'
+	Plug 'rebelot/kanagawa.nvim'
 	Plug 'pappasam/coc-jedi', {'do': 'yarn install --frozen-lockfile && yarn build', 'branch': 'main'}
 call plug#end()
 lua require('Comment').setup()
@@ -105,7 +106,7 @@ augroup mygroup
 augroup end
 
 " Visuals 
-colorscheme onehalflight
+colorscheme kanagawa
 
 autocmd FileType python command! Main execute "normal! idef main():<CR><CR><BS>if __name__ == '__main__':<CR>main()<ESC>gg$"
 autocmd FileType c command! Main execute "normal! i#include <stdlib.h><CR><CR>void main() {<CR>}<ESC>k$"
