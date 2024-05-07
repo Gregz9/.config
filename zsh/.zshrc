@@ -99,3 +99,6 @@ gpg-connect-agent updatestartuptty /bye >/dev/null
 
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 bindkey -v
+
+
+QT_QPA_PLATFORM=wayland
